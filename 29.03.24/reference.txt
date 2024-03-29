@@ -1,0 +1,17 @@
+https://worldwind.arc.nasa.gov/
+https://community.windy.com/topic/20427/true-satellite-imagery-competition-zoom-earth
+https://github.com/bahanonu/geoSatView 
+https://rapid.imd.gov.in/r2v/
+https://mausam.imd.gov.in/Forecast/marquee_data/API_doc.pdf
+https://www.noaa.gov/tools-and-resources/weather-and-climate-resources
+
+
+1. https://github.com/bahanonu/geoSatView 
+It provides two options : 
+ a) Download the NOAA (GOES-16 or GOES-17 satellite)
+ b) Get the data from Zoom.earth (Takes the screenshot from Zoom.earth)
+In both cases, satellite images are downloaded from the site. Then a directory is created for all the downloaded images and files are processed and extracted based on various parameters like time stamps. Finally, the images are converted into a video or visual purposes or converted into a video file.
+
+But both GOES-16 and GOES-17 cover the areas of USA and some nearby places so Cannot be used for India
+
+Findings: I think Zoom.earth screenshots can be used and after studying the geosat code and making appropriate changes, it can be useful.
